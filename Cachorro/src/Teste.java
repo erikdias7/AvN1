@@ -1,11 +1,7 @@
-public class Teste {
+public class Teste extends Adestrador{
     public static void main(String[] args) {
         Adestrador a = new Adestrador();
-       a.latir();
-       a.andar();
-       a.pular();
-       a.ficar(); 
-       a.sentar();
+       a.iniciar_treinamento();
         
     }
 }
